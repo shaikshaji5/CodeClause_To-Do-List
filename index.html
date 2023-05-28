@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="icon" type="image/x-icon" href="monkeyFace.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="titleName">Do It</h1>
+    <img id="leaf" src="leaf.png" alt="leaf" >
+    <div id="left-container">
+        <h2>suggessions</h2>
+        <p onclick="addsug(this)">do project work</p>
+        <p onclick="addsug(this)">pending assignments</p>
+        <p onclick="addsug(this)">laundry</p>
+        <p onclick="addsug(this)">gardening</p>
+    </div>
+    <div id="mid-container" >
+      <label for="task">
+          <input id="inp" type="text" value="" placeholder="type here...">
+      </label> 
+      <button id="add" onclick="addtask()">add</button>
+    </div>
+
+
+    <div id="return"  >
+        <div id="ret_box" >
+        <h3 id="temp" style="font-weight: lighter; color:rgba(113, 113, 113, 0.987); 
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;" contenteditable="none">Add tasks to see here</h3>
+        </div>
+    </div>
+    <img id="monkey" src="monkey.png" alt="monkey">
+    <h2 id="comp">completed</h2>
+
+    <div id="donelist">
+    </div>
+
+
+
+    <div id="footer">
+        <h3>Let's Connect</h3>
+    
+        <div id="links">
+                <span><a href="https://www.linkedin.com/in/shajidhussain/"><img src="linkedin.png" alt=""></a></span>
+                <span><a href="https://github.com/shaikshaji5"><img src="github.png" ></a></span>
+                <span><a href="hshaik@gmail.com"><img src="gmail.png"></a></span>
+                <span><a href="https://www.instagram.com/sha.z.e/"><img src="instagram.png" ></a></span>
+                <span><a href="https://www.instagram.com/sha.z.e/"><img src="phone.png" ></a></span>
+
+            
+        </div>
+        <div id="profile">
+            <span>
+            <p>developed By</p>
+            <h2>shaji</h2>
+            </span>
+        </div>
+        </div>
+</body>
+</html>
+<!-- bc6c25 brown 20 -->
+<!-- f2e8cf 60 -->
+<!-- d3d3d3 20  -->
